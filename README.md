@@ -20,3 +20,7 @@ This python program extracts daily summary data from the [NOAA Global Historical
     The following is an example of the csv that is exported:
     
     ![Prompt Examples](/assets/sheet.png)
+
+## Help and Support
+
+You can ask me questions about this directly by emailing: `jikaczmarski@unm.edu`, but I will assume you have read this tutorial and the information in `-h`. If you get an empty csv, it is because that weather station is not available in the data of that year.
