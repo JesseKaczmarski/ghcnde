@@ -3,6 +3,10 @@
 
 This python program extracts daily summary data from the [NOAA Global Historical Climate Network](https://www.ncdc.noaa.gov/cdo-web/datasets) (GHCN-Daily) for a specific weather station of your choosing ([FTP Link for downloading data by year](https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/)).
 ***
+## Limitations
+
+It can only handle one station at a time, and one year at a time. The number and types of elements to extract are infinite.
+
 ## Setup and Tutorial
 1. Download the `ghcnde.py` program from this github repository, and place it wherever you like - preferrably in the directory that includes your downloaded data. For example, the following image shows the program in a directory along with the 2016 data downloaded from the [FTP website](https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/). Note that the data must be extracted from the zip file.
 2. Run the program from your terminal or command prompt. This command can be different depending on how you installed Python on your system. For myself, the program can be run with `python3 ghcnde.py -h` which returns the following:
